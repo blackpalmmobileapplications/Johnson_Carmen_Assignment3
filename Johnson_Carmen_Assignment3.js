@@ -78,4 +78,28 @@ var onTime = "We have " + tanks + " tanks and " + crew + ",jeeps; so that will b
 
 var onTime = lateEarly(tanks, crew);
 yell(onTime || late);
-(true);   
+(true);  
+
+//Mutator method
+tanknames.push("Men of War")
+
+yell("We have the best scores for acquiring targets in the United States, but " + tanknames[0] + " has the best scores in the nation.");
+
+//Accessor method
+top.downrange(tanknames[3]);
+top.smokeGen(tanknames[2]);
+yell("Hey Top! We are starting our engines and going to go hit some targets.");  
+
+//While loop
+var vehicles = 10;
+while (vehicles > 0) {
+yell("We will have enough vehicles to the range.");
+                         vehicles--;
+};   
+
+//json string
+//var jsonstring = JSON.stringify(json); 
+//console.log(jsonstring)  
+
+
+
