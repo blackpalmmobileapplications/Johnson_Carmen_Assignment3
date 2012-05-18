@@ -28,3 +28,16 @@ var top = {"rank": "First Sargeant",
 } };
 
 //Procedure
+var upRange = function() {
+              if(true) { yell("Let's go" + top.rank + "we are ready!");
+              } else { yell("The other " + vehi + " will beat us there!");
+}; };
+yell("We won't make it on time if our " + vehi + " don't leave right now!!");
+//            yell("If we are not there in " + json.Times.length + " we are in trouble!");
+
+show you the work here as well
+//var listTimes = function(json) {
+//          for(var i = 0; i < json.Times.length; i++) {         var Time = json.Times[i];
+//       yell("rank: "+ Time.rank + " ,name: " + Time.name + ",yearsServed: " + Time.yearsServed);
+//};  
+
