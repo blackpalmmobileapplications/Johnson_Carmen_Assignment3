@@ -56,3 +56,26 @@ var upRange = function() {
 //};  
 
 //listJeeps(json2);
+
+//local array for loop
+yell("The whole battalion has " + crew + vehi + " and our company has " + tanknames.length + vehi + ".");
+for (var i = 0, c = tanknames.length; i < c; i++) {
+};
+
+yell(" In order for our company to sign in on time, we will need find the fastest way to get to the range.");
+
+//Boolean comparison
+var lateEarly = function(tanks, crew) {
+if (tanks >= 3 && crew >= 14) {
+var onTime = "We have " + tanks + " tanks and " + crew + ",jeeps; so that will be enough to get everyone there on time to sign in at the range control.";
+
+       return onTime
+}; 
+      if (tanks<3 || crew<14); {
+      var late = " We do not have enough room to get everyone there on time to sign in."
+      return late
+}; };
+
+var onTime = lateEarly(tanks, crew);
+yell(onTime || late);
+(true);   
